@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_752"
+               BlueprintIdentifier = "OBJ_753"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_768"
+               BlueprintIdentifier = "OBJ_769"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1456"
+               BlueprintIdentifier = "OBJ_1457"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1465"
+               BlueprintIdentifier = "OBJ_1466"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1480"
+               BlueprintIdentifier = "OBJ_1481"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1503"
+               BlueprintIdentifier = "OBJ_1504"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1521"
+               BlueprintIdentifier = "OBJ_1522"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1546"
+               BlueprintIdentifier = "OBJ_1547"
                BuildableName = "PerfectMustache.framework"
                BlueprintName = "PerfectMustache"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1563"
+               BlueprintIdentifier = "OBJ_1564"
                BuildableName = "Kantoku"
                BlueprintName = "Kantoku"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -157,7 +157,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_752"
+            BlueprintIdentifier = "OBJ_753"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
             ReferencedContainer = "container:Kantoku.xcodeproj">

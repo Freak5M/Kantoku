@@ -506,7 +506,7 @@
 		OBJ_1539 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_749 /* PerfectNet.framework */; };
 		OBJ_1540 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_750 /* PerfectHTTP.framework */; };
 		OBJ_1541 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_751 /* CHTTPParser.framework */; };
-		OBJ_1553 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_738 /* DashboardController.swift */; };
+		OBJ_1553 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_738 /* UserController.swift */; };
 		OBJ_1554 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_739 /* main.swift */; };
 		OBJ_1555 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_740 /* Results.swift */; };
 		OBJ_1556 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_741 /* Router.swift */; };
@@ -1620,7 +1620,7 @@
 		OBJ_734 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
 		OBJ_735 /* HTTPServerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerEx.swift; sourceTree = "<group>"; };
 		OBJ_736 /* HTTPServerExConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerExConfig.swift; sourceTree = "<group>"; };
-		OBJ_738 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		OBJ_738 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		OBJ_739 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_74 /* bio_cb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_cb.c; sourceTree = "<group>"; };
 		OBJ_740 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
@@ -2551,7 +2551,7 @@
 		OBJ_737 /* Kantoku */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_738 /* DashboardController.swift */,
+				OBJ_738 /* UserController.swift */,
 				OBJ_739 /* main.swift */,
 				OBJ_740 /* Results.swift */,
 				OBJ_741 /* Router.swift */,
@@ -2876,7 +2876,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_1553 /* DashboardController.swift in Sources */,
+				OBJ_1553 /* UserController.swift in Sources */,
 				OBJ_1554 /* main.swift in Sources */,
 				OBJ_1555 /* Results.swift in Sources */,
 				OBJ_1556 /* Router.swift in Sources */,

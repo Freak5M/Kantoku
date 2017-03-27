@@ -40,7 +40,7 @@ class Result : BaseResult {
     
     var data : JSONConvertibleObject? = nil
     
-    init(status: HTTPResponseStatus, message: String?, data: JSONConvertibleObject? = nil) {
+    init(status: HTTPResponseStatus, message: String? = nil, data: JSONConvertibleObject? = nil) {
         super.init(status: status, message: message)
         self.data = data
     }

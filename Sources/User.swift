@@ -48,7 +48,7 @@ class User : JSONConvertibleObject {
     
     override func getJSONValues() -> [String : Any] {
         return [
-            JSONDecoding.objectIdentifierKey:User.jsonRegisterName,
+            // JSONDecoding.objectIdentifierKey:User.jsonRegisterName,
             "id": id,
             "firstName": firstName,
             "lastName": lastName,

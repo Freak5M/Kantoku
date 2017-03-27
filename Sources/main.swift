@@ -23,11 +23,12 @@ let server = HTTPServer()
 server.documentRoot = "./webroot"
 
 // Register your own routes and handlers
-var routes = Routes()
-routes.add(Router.getRoutes())
+
+// Routes V1
+var api1Routes = Routes(baseUri: "/v1", routes: Router.getRoutes())
 
 // Add the routes to the server.
-server.addRoutes(routes)
+server.addRoutes(api1Routes)
 
 // Set a listen port of 8080
 server.serverPort = 8080

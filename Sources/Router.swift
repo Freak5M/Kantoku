@@ -13,7 +13,7 @@ final class Router {
     
     static func getRoutes() -> [Route] {
         return [
-            Route(method: .get, uri: "/", handler: DashboardController.index)
+            Route(method: .get, uri: "/users/list", handler: DashboardController.index)
         ]
     }
     

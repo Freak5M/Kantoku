@@ -1,7 +1,20 @@
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
-import PerfectMustache
+/* import PerfectRequestLogger
+
+// Define custom log file
+RequestLogFile.location = "./HTTPLogFile.log"
+
+// Instantiate a logger
+let myLogger = RequestLogger()
+
+// Add the filters
+// Request filter at high priority to be executed first
+server.setRequestFilters([(myLogger, .high)])
+// Response filter at low priority to be executed last
+server.setResponseFilters([(myLogger, .low)]) */
+
 
 // Create HTTP server.
 let server = HTTPServer()
@@ -11,20 +24,16 @@ server.documentRoot = "./webroot"
 
 // Register your own routes and handlers
 var routes = Routes()
-
-routes.add(method: .get, uri: "/", handler: {
-    request, response in
-    response.setHeader(.contentType, value: "text/html")
-    response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
-    response.completed()
-    }
-)
+routes.add(Router.getRoutes())
 
 // Add the routes to the server.
 server.addRoutes(routes)
 
 // Set a listen port of 8080
 server.serverPort = 8080
+
+// JSON Registration
+JSONDecoding.registerJSONDecodable(name: User.jsonRegisterName, creator: { return User() })
 
 do {
     // Launch the HTTP server.

@@ -471,8 +471,8 @@
 		OBJ_1473 /* NetNamedPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_711 /* NetNamedPipe.swift */; };
 		OBJ_1474 /* NetTCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_712 /* NetTCP.swift */; };
 		OBJ_1475 /* NetTCPSSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_713 /* NetTCPSSL.swift */; };
-		OBJ_1477 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* COpenSSL.framework */; };
-		OBJ_1478 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* PerfectThread.framework */; };
+		OBJ_1477 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* COpenSSL.framework */; };
+		OBJ_1478 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectThread.framework */; };
 		OBJ_1486 /* HTTPFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_715 /* HTTPFilter.swift */; };
 		OBJ_1487 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_716 /* HTTPHeaders.swift */; };
 		OBJ_1488 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_717 /* HTTPMethod.swift */; };
@@ -482,16 +482,16 @@
 		OBJ_1492 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_721 /* MimeType.swift */; };
 		OBJ_1493 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_722 /* Routing.swift */; };
 		OBJ_1494 /* StaticFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_723 /* StaticFileHandler.swift */; };
-		OBJ_1496 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_744 /* PerfectLib.framework */; };
-		OBJ_1497 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* COpenSSL.framework */; };
-		OBJ_1498 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* PerfectThread.framework */; };
-		OBJ_1499 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectNet.framework */; };
+		OBJ_1496 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* PerfectLib.framework */; };
+		OBJ_1497 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* COpenSSL.framework */; };
+		OBJ_1498 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectThread.framework */; };
+		OBJ_1499 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectNet.framework */; };
 		OBJ_1510 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_725 /* http_parser.c */; };
-		OBJ_1512 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_744 /* PerfectLib.framework */; };
-		OBJ_1513 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* COpenSSL.framework */; };
-		OBJ_1514 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* PerfectThread.framework */; };
-		OBJ_1515 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectNet.framework */; };
-		OBJ_1516 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectHTTP.framework */; };
+		OBJ_1512 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* PerfectLib.framework */; };
+		OBJ_1513 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* COpenSSL.framework */; };
+		OBJ_1514 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectThread.framework */; };
+		OBJ_1515 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectNet.framework */; };
+		OBJ_1516 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_749 /* PerfectHTTP.framework */; };
 		OBJ_1527 /* HPACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_730 /* HPACK.swift */; };
 		OBJ_1528 /* HTTP11Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_731 /* HTTP11Request.swift */; };
 		OBJ_1529 /* HTTP11Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_732 /* HTTP11Response.swift */; };
@@ -499,27 +499,23 @@
 		OBJ_1531 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_734 /* HTTPServer.swift */; };
 		OBJ_1532 /* HTTPServerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_735 /* HTTPServerEx.swift */; };
 		OBJ_1533 /* HTTPServerExConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_736 /* HTTPServerExConfig.swift */; };
-		OBJ_1535 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_744 /* PerfectLib.framework */; };
-		OBJ_1536 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* COpenSSL.framework */; };
-		OBJ_1537 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* PerfectThread.framework */; };
-		OBJ_1538 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectNet.framework */; };
-		OBJ_1539 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectHTTP.framework */; };
-		OBJ_1540 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_749 /* CHTTPParser.framework */; };
-		OBJ_1552 /* Mustache.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_738 /* Mustache.swift */; };
-		OBJ_1554 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_744 /* PerfectLib.framework */; };
-		OBJ_1555 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* COpenSSL.framework */; };
-		OBJ_1556 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* PerfectThread.framework */; };
-		OBJ_1557 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectNet.framework */; };
-		OBJ_1558 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectHTTP.framework */; };
-		OBJ_1569 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_740 /* main.swift */; };
-		OBJ_1571 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_744 /* PerfectLib.framework */; };
-		OBJ_1572 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* COpenSSL.framework */; };
-		OBJ_1573 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* PerfectThread.framework */; };
-		OBJ_1574 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectNet.framework */; };
-		OBJ_1575 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectHTTP.framework */; };
-		OBJ_1576 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_749 /* CHTTPParser.framework */; };
-		OBJ_1577 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_750 /* PerfectHTTPServer.framework */; };
-		OBJ_1578 /* PerfectMustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_751 /* PerfectMustache.framework */; };
+		OBJ_1535 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* PerfectLib.framework */; };
+		OBJ_1536 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* COpenSSL.framework */; };
+		OBJ_1537 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectThread.framework */; };
+		OBJ_1538 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectNet.framework */; };
+		OBJ_1539 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_749 /* PerfectHTTP.framework */; };
+		OBJ_1540 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_750 /* CHTTPParser.framework */; };
+		OBJ_1552 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_738 /* DashboardController.swift */; };
+		OBJ_1553 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_739 /* main.swift */; };
+		OBJ_1554 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_740 /* Router.swift */; };
+		OBJ_1555 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_741 /* User.swift */; };
+		OBJ_1557 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_745 /* PerfectLib.framework */; };
+		OBJ_1558 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_746 /* COpenSSL.framework */; };
+		OBJ_1559 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_747 /* PerfectThread.framework */; };
+		OBJ_1560 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_748 /* PerfectNet.framework */; };
+		OBJ_1561 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_749 /* PerfectHTTP.framework */; };
+		OBJ_1562 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_750 /* CHTTPParser.framework */; };
+		OBJ_1563 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_751 /* PerfectHTTPServer.framework */; };
 		OBJ_758 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Bytes.swift */; };
 		OBJ_759 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dir.swift */; };
 		OBJ_760 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* File.swift */; };
@@ -758,215 +754,173 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18A883C01E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477C9A1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_769;
 			remoteInfo = COpenSSL;
 		};
-		18A883C11E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477C9B1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1457;
 			remoteInfo = PerfectThread;
 		};
-		18A883C21E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477C9C1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_753;
 			remoteInfo = PerfectLib;
 		};
-		18A883C31E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477C9D1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_769;
 			remoteInfo = COpenSSL;
 		};
-		18A883C41E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477C9E1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1457;
 			remoteInfo = PerfectThread;
 		};
-		18A883C51E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477C9F1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1466;
 			remoteInfo = PerfectNet;
 		};
-		18A883C61E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA01E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_753;
 			remoteInfo = PerfectLib;
 		};
-		18A883C71E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA11E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_769;
 			remoteInfo = COpenSSL;
 		};
-		18A883C81E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA21E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1457;
 			remoteInfo = PerfectThread;
 		};
-		18A883C91E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA31E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1466;
 			remoteInfo = PerfectNet;
 		};
-		18A883CA1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA41E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1481;
 			remoteInfo = PerfectHTTP;
 		};
-		18A883CB1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA51E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_753;
 			remoteInfo = PerfectLib;
 		};
-		18A883CC1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA61E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_769;
 			remoteInfo = COpenSSL;
 		};
-		18A883CD1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA71E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1457;
 			remoteInfo = PerfectThread;
 		};
-		18A883CE1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA81E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1466;
 			remoteInfo = PerfectNet;
 		};
-		18A883CF1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CA91E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1481;
 			remoteInfo = PerfectHTTP;
 		};
-		18A883D01E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CAA1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1504;
 			remoteInfo = CHTTPParser;
 		};
-		18A883D11E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CAB1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_753;
 			remoteInfo = PerfectLib;
 		};
-		18A883D21E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CAC1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_769;
 			remoteInfo = COpenSSL;
 		};
-		18A883D31E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CAD1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1457;
 			remoteInfo = PerfectThread;
 		};
-		18A883D41E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CAE1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1466;
 			remoteInfo = PerfectNet;
 		};
-		18A883D51E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CAF1E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1481;
 			remoteInfo = PerfectHTTP;
 		};
-		18A883D61E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_753;
-			remoteInfo = PerfectLib;
-		};
-		18A883D71E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_769;
-			remoteInfo = COpenSSL;
-		};
-		18A883D81E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_1457;
-			remoteInfo = PerfectThread;
-		};
-		18A883D91E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_1466;
-			remoteInfo = PerfectNet;
-		};
-		18A883DA1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_1481;
-			remoteInfo = PerfectHTTP;
-		};
-		18A883DB1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CB01E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1504;
 			remoteInfo = CHTTPParser;
 		};
-		18A883DC1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
+		18477CB11E893BE1004C4EF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1522;
 			remoteInfo = PerfectHTTPServer;
-		};
-		18A883DD1E8571ED00FC13D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_1547;
-			remoteInfo = PerfectMustache;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1665,19 +1619,20 @@
 		OBJ_734 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
 		OBJ_735 /* HTTPServerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerEx.swift; sourceTree = "<group>"; };
 		OBJ_736 /* HTTPServerExConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerExConfig.swift; sourceTree = "<group>"; };
-		OBJ_738 /* Mustache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mustache.swift; sourceTree = "<group>"; };
+		OBJ_738 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		OBJ_739 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_74 /* bio_cb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_cb.c; sourceTree = "<group>"; };
-		OBJ_740 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_742 /* webroot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webroot; sourceTree = SOURCE_ROOT; };
-		OBJ_744 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_745 /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_746 /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_747 /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_748 /* PerfectHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_749 /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_740 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		OBJ_741 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		OBJ_743 /* webroot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webroot; sourceTree = SOURCE_ROOT; };
+		OBJ_745 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_746 /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_747 /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_748 /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_749 /* PerfectHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_75 /* bio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_enc.c; sourceTree = "<group>"; };
-		OBJ_750 /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_751 /* PerfectMustache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectMustache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_750 /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_751 /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_752 /* Kantoku */ = {isa = PBXFileReference; lastKnownFileType = text; path = Kantoku; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_76 /* bio_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_err.c; sourceTree = "<group>"; };
 		OBJ_77 /* bio_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_lib.c; sourceTree = "<group>"; };
@@ -1766,30 +1721,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_1553 /* Frameworks */ = {
+		OBJ_1556 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_1554 /* PerfectLib.framework in Frameworks */,
-				OBJ_1555 /* COpenSSL.framework in Frameworks */,
-				OBJ_1556 /* PerfectThread.framework in Frameworks */,
-				OBJ_1557 /* PerfectNet.framework in Frameworks */,
-				OBJ_1558 /* PerfectHTTP.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_1570 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_1571 /* PerfectLib.framework in Frameworks */,
-				OBJ_1572 /* COpenSSL.framework in Frameworks */,
-				OBJ_1573 /* PerfectThread.framework in Frameworks */,
-				OBJ_1574 /* PerfectNet.framework in Frameworks */,
-				OBJ_1575 /* PerfectHTTP.framework in Frameworks */,
-				OBJ_1576 /* CHTTPParser.framework in Frameworks */,
-				OBJ_1577 /* PerfectHTTPServer.framework in Frameworks */,
-				OBJ_1578 /* PerfectMustache.framework in Frameworks */,
+				OBJ_1557 /* PerfectLib.framework in Frameworks */,
+				OBJ_1558 /* COpenSSL.framework in Frameworks */,
+				OBJ_1559 /* PerfectThread.framework in Frameworks */,
+				OBJ_1560 /* PerfectNet.framework in Frameworks */,
+				OBJ_1561 /* PerfectHTTP.framework in Frameworks */,
+				OBJ_1562 /* CHTTPParser.framework in Frameworks */,
+				OBJ_1563 /* PerfectHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2498,9 +2440,9 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_741 /* Tests */,
-				OBJ_742 /* webroot */,
-				OBJ_743 /* Products */,
+				OBJ_742 /* Tests */,
+				OBJ_743 /* webroot */,
+				OBJ_744 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -2515,8 +2457,7 @@
 				OBJ_714 /* PerfectHTTP */,
 				OBJ_724 /* CHTTPParser */,
 				OBJ_729 /* PerfectHTTPServer */,
-				OBJ_737 /* PerfectMustache */,
-				OBJ_739 /* Kantoku */,
+				OBJ_737 /* Kantoku */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -2605,42 +2546,35 @@
 			path = "Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_737 /* PerfectMustache */ = {
+		OBJ_737 /* Kantoku */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_738 /* Mustache.swift */,
-			);
-			name = PerfectMustache;
-			path = "Packages/PerfectMustache-2.0.3/Sources";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_739 /* Kantoku */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_740 /* main.swift */,
+				OBJ_738 /* DashboardController.swift */,
+				OBJ_739 /* main.swift */,
+				OBJ_740 /* Router.swift */,
+				OBJ_741 /* User.swift */,
 			);
 			name = Kantoku;
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_741 /* Tests */ = {
+		OBJ_742 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		OBJ_743 /* Products */ = {
+		OBJ_744 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_744 /* PerfectLib.framework */,
-				OBJ_745 /* COpenSSL.framework */,
-				OBJ_746 /* PerfectThread.framework */,
-				OBJ_747 /* PerfectNet.framework */,
-				OBJ_748 /* PerfectHTTP.framework */,
-				OBJ_749 /* CHTTPParser.framework */,
-				OBJ_750 /* PerfectHTTPServer.framework */,
-				OBJ_751 /* PerfectMustache.framework */,
+				OBJ_745 /* PerfectLib.framework */,
+				OBJ_746 /* COpenSSL.framework */,
+				OBJ_747 /* PerfectThread.framework */,
+				OBJ_748 /* PerfectNet.framework */,
+				OBJ_749 /* PerfectHTTP.framework */,
+				OBJ_750 /* CHTTPParser.framework */,
+				OBJ_751 /* PerfectHTTPServer.framework */,
 				OBJ_752 /* Kantoku */,
 			);
 			name = Products;
@@ -2680,7 +2614,7 @@
 			);
 			name = PerfectThread;
 			productName = PerfectThread;
-			productReference = OBJ_746 /* PerfectThread.framework */;
+			productReference = OBJ_747 /* PerfectThread.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		OBJ_1466 /* PerfectNet */ = {
@@ -2698,7 +2632,7 @@
 			);
 			name = PerfectNet;
 			productName = PerfectNet;
-			productReference = OBJ_747 /* PerfectNet.framework */;
+			productReference = OBJ_748 /* PerfectNet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		OBJ_1481 /* PerfectHTTP */ = {
@@ -2718,7 +2652,7 @@
 			);
 			name = PerfectHTTP;
 			productName = PerfectHTTP;
-			productReference = OBJ_748 /* PerfectHTTP.framework */;
+			productReference = OBJ_749 /* PerfectHTTP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		OBJ_1504 /* CHTTPParser */ = {
@@ -2740,7 +2674,7 @@
 			);
 			name = CHTTPParser;
 			productName = CHTTPParser;
-			productReference = OBJ_749 /* CHTTPParser.framework */;
+			productReference = OBJ_750 /* CHTTPParser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		OBJ_1522 /* PerfectHTTPServer */ = {
@@ -2762,49 +2696,26 @@
 			);
 			name = PerfectHTTPServer;
 			productName = PerfectHTTPServer;
-			productReference = OBJ_750 /* PerfectHTTPServer.framework */;
+			productReference = OBJ_751 /* PerfectHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_1547 /* PerfectMustache */ = {
+		OBJ_1547 /* Kantoku */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_1548 /* Build configuration list for PBXNativeTarget "PerfectMustache" */;
+			buildConfigurationList = OBJ_1548 /* Build configuration list for PBXNativeTarget "Kantoku" */;
 			buildPhases = (
 				OBJ_1551 /* Sources */,
-				OBJ_1553 /* Frameworks */,
+				OBJ_1556 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_1559 /* PBXTargetDependency */,
-				OBJ_1560 /* PBXTargetDependency */,
-				OBJ_1561 /* PBXTargetDependency */,
-				OBJ_1562 /* PBXTargetDependency */,
-				OBJ_1563 /* PBXTargetDependency */,
-			);
-			name = PerfectMustache;
-			productName = PerfectMustache;
-			productReference = OBJ_751 /* PerfectMustache.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		OBJ_1564 /* Kantoku */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_1565 /* Build configuration list for PBXNativeTarget "Kantoku" */;
-			buildPhases = (
-				OBJ_1568 /* Sources */,
-				OBJ_1570 /* Frameworks */,
-				_ScriptPhase_Kantoku /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_1579 /* PBXTargetDependency */,
-				OBJ_1580 /* PBXTargetDependency */,
-				OBJ_1581 /* PBXTargetDependency */,
-				OBJ_1582 /* PBXTargetDependency */,
-				OBJ_1583 /* PBXTargetDependency */,
-				OBJ_1584 /* PBXTargetDependency */,
-				OBJ_1585 /* PBXTargetDependency */,
-				OBJ_1586 /* PBXTargetDependency */,
+				OBJ_1564 /* PBXTargetDependency */,
+				OBJ_1565 /* PBXTargetDependency */,
+				OBJ_1566 /* PBXTargetDependency */,
+				OBJ_1567 /* PBXTargetDependency */,
+				OBJ_1568 /* PBXTargetDependency */,
+				OBJ_1569 /* PBXTargetDependency */,
+				OBJ_1570 /* PBXTargetDependency */,
 			);
 			name = Kantoku;
 			productName = Kantoku;
@@ -2824,7 +2735,7 @@
 			);
 			name = PerfectLib;
 			productName = PerfectLib;
-			productReference = OBJ_744 /* PerfectLib.framework */;
+			productReference = OBJ_745 /* PerfectLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		OBJ_769 /* COpenSSL */ = {
@@ -2841,7 +2752,7 @@
 			);
 			name = COpenSSL;
 			productName = COpenSSL;
-			productReference = OBJ_745 /* COpenSSL.framework */;
+			productReference = OBJ_746 /* COpenSSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2860,7 +2771,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_743 /* Products */;
+			productRefGroup = OBJ_744 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2871,8 +2782,7 @@
 				OBJ_1481 /* PerfectHTTP */,
 				OBJ_1504 /* CHTTPParser */,
 				OBJ_1522 /* PerfectHTTPServer */,
-				OBJ_1547 /* PerfectMustache */,
-				OBJ_1564 /* Kantoku */,
+				OBJ_1547 /* Kantoku */,
 			);
 		};
 /* End PBXProject section */
@@ -2895,12 +2805,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p \"${PROJECT_TEMP_DIR}/SymlinkLibs\"\nln -sf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${PROJECT_TEMP_DIR}/SymlinkLibs/lib${EXECUTABLE_NAME}.dylib\"\n";
-		};
-		_ScriptPhase_Kantoku /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			runOnlyForDeploymentPostProcessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ./buildlinux;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2969,15 +2873,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_1552 /* Mustache.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_1568 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_1569 /* main.swift in Sources */,
+				OBJ_1552 /* DashboardController.swift in Sources */,
+				OBJ_1553 /* main.swift in Sources */,
+				OBJ_1554 /* Router.swift in Sources */,
+				OBJ_1555 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3692,152 +3591,122 @@
 		OBJ_1479 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_769 /* COpenSSL */;
-			targetProxy = 18A883C01E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477C9A1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1480 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1457 /* PerfectThread */;
-			targetProxy = 18A883C11E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477C9B1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_753 /* PerfectLib */;
-			targetProxy = 18A883C21E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477C9C1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1501 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_769 /* COpenSSL */;
-			targetProxy = 18A883C31E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477C9D1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1502 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1457 /* PerfectThread */;
-			targetProxy = 18A883C41E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477C9E1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1503 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1466 /* PerfectNet */;
-			targetProxy = 18A883C51E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477C9F1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1517 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_753 /* PerfectLib */;
-			targetProxy = 18A883C61E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA01E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1518 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_769 /* COpenSSL */;
-			targetProxy = 18A883C71E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA11E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1519 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1457 /* PerfectThread */;
-			targetProxy = 18A883C81E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA21E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1466 /* PerfectNet */;
-			targetProxy = 18A883C91E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA31E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1521 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1481 /* PerfectHTTP */;
-			targetProxy = 18A883CA1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA41E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_753 /* PerfectLib */;
-			targetProxy = 18A883CB1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA51E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1542 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_769 /* COpenSSL */;
-			targetProxy = 18A883CC1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA61E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1543 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1457 /* PerfectThread */;
-			targetProxy = 18A883CD1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA71E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1544 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1466 /* PerfectNet */;
-			targetProxy = 18A883CE1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA81E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1545 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1481 /* PerfectHTTP */;
-			targetProxy = 18A883CF1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CA91E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 		OBJ_1546 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1504 /* CHTTPParser */;
-			targetProxy = 18A883D01E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CAA1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1559 /* PBXTargetDependency */ = {
+		OBJ_1564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_753 /* PerfectLib */;
-			targetProxy = 18A883D11E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CAB1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1560 /* PBXTargetDependency */ = {
+		OBJ_1565 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_769 /* COpenSSL */;
-			targetProxy = 18A883D21E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CAC1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1561 /* PBXTargetDependency */ = {
+		OBJ_1566 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1457 /* PerfectThread */;
-			targetProxy = 18A883D31E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CAD1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1562 /* PBXTargetDependency */ = {
+		OBJ_1567 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1466 /* PerfectNet */;
-			targetProxy = 18A883D41E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CAE1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1563 /* PBXTargetDependency */ = {
+		OBJ_1568 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1481 /* PerfectHTTP */;
-			targetProxy = 18A883D51E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CAF1E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1579 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_753 /* PerfectLib */;
-			targetProxy = 18A883D61E8571ED00FC13D5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1580 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_769 /* COpenSSL */;
-			targetProxy = 18A883D71E8571ED00FC13D5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1581 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_1457 /* PerfectThread */;
-			targetProxy = 18A883D81E8571ED00FC13D5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1582 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_1466 /* PerfectNet */;
-			targetProxy = 18A883D91E8571ED00FC13D5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1583 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_1481 /* PerfectHTTP */;
-			targetProxy = 18A883DA1E8571ED00FC13D5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1584 /* PBXTargetDependency */ = {
+		OBJ_1569 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1504 /* CHTTPParser */;
-			targetProxy = 18A883DB1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CB01E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
-		OBJ_1585 /* PBXTargetDependency */ = {
+		OBJ_1570 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1522 /* PerfectHTTPServer */;
-			targetProxy = 18A883DC1E8571ED00FC13D5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1586 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_1547 /* PerfectMustache */;
-			targetProxy = 18A883DD1E8571ED00FC13D5 /* PBXContainerItemProxy */;
+			targetProxy = 18477CB11E893BE1004C4EF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4085,54 +3954,6 @@
 		OBJ_1549 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"Packages/COpenSSL-2.0.4/COpenSSL/include",
-				);
-				INFOPLIST_FILE = Kantoku.xcodeproj/PerfectMustache_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = PerfectMustache;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = PerfectMustache;
-			};
-			name = Debug;
-		};
-		OBJ_1550 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"Packages/COpenSSL-2.0.4/COpenSSL/include",
-				);
-				INFOPLIST_FILE = Kantoku.xcodeproj/PerfectMustache_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = PerfectMustache;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = PerfectMustache;
-			};
-			name = Release;
-		};
-		OBJ_1566 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -4153,7 +3974,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_1567 /* Release */ = {
+		OBJ_1550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4356,20 +4177,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_1548 /* Build configuration list for PBXNativeTarget "PerfectMustache" */ = {
+		OBJ_1548 /* Build configuration list for PBXNativeTarget "Kantoku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_1549 /* Debug */,
 				OBJ_1550 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_1565 /* Build configuration list for PBXNativeTarget "Kantoku" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_1566 /* Debug */,
-				OBJ_1567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

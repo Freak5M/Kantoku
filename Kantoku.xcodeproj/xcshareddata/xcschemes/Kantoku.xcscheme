@@ -113,20 +113,6 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_1547"
-               BuildableName = "PerfectMustache.framework"
-               BlueprintName = "PerfectMustache"
-               ReferencedContainer = "container:Kantoku.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1564"
                BuildableName = "Kantoku"
                BlueprintName = "Kantoku"
                ReferencedContainer = "container:Kantoku.xcodeproj">

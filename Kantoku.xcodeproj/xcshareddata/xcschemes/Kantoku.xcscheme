@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_754"
+               BlueprintIdentifier = "OBJ_781"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_770"
+               BlueprintIdentifier = "OBJ_797"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1458"
+               BlueprintIdentifier = "OBJ_1485"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1467"
+               BlueprintIdentifier = "OBJ_1494"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1482"
+               BlueprintIdentifier = "OBJ_1509"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -84,21 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1505"
-               BuildableName = "CHTTPParser.framework"
-               BlueprintName = "CHTTPParser"
-               ReferencedContainer = "container:Kantoku.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1523"
+               BlueprintIdentifier = "OBJ_1532"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -112,7 +98,77 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1548"
+               BlueprintIdentifier = "OBJ_1557"
+               BuildableName = "CHTTPParser.framework"
+               BlueprintName = "CHTTPParser"
+               ReferencedContainer = "container:Kantoku.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1575"
+               BuildableName = "SwiftMoment.framework"
+               BlueprintName = "SwiftMoment"
+               ReferencedContainer = "container:Kantoku.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1587"
+               BuildableName = "PerfectLogger.framework"
+               BlueprintName = "PerfectLogger"
+               ReferencedContainer = "container:Kantoku.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1598"
+               BuildableName = "SwiftRandom.framework"
+               BlueprintName = "SwiftRandom"
+               ReferencedContainer = "container:Kantoku.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1607"
+               BuildableName = "PerfectRequestLogger.framework"
+               BlueprintName = "PerfectRequestLogger"
+               ReferencedContainer = "container:Kantoku.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1634"
                BuildableName = "Kantoku"
                BlueprintName = "Kantoku"
                ReferencedContainer = "container:Kantoku.xcodeproj">
@@ -143,7 +199,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_754"
+            BlueprintIdentifier = "OBJ_781"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
             ReferencedContainer = "container:Kantoku.xcodeproj">

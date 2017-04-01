@@ -1,3 +1,6 @@
+# OS
+.DS_Store
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -7,7 +10,6 @@ build/
 DerivedData
 
 ## Various settings
-.DSStore
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -64,6 +66,11 @@ fastlane/report.xml
 fastlane/screenshots
 
 Packages/
-PerfectTemplate.xcodeproj
-Tests/
-webroot/
+Perfect-App-Template.xcodeproj
+*.xcodeproj
+buildlinux
+Package.swift.orig
+Package.pins
+.packages_lin
+.build_lin
+*.log

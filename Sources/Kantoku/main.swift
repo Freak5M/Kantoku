@@ -1,13 +1,16 @@
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
+import PerfectLogger
 import PerfectRequestLogger
 
 // Define custom log file
-RequestLogFile.location = "./HTTPLogFile.log"
+RequestLogFile.location = "./log.log"
+LogFile.location = "./log.log"
 
 // Create HTTP server.
 let server = HTTPServer()
+server.serverPort = 8080
 
 // Instantiate a logger
 let myLogger = RequestLogger()
@@ -16,10 +19,7 @@ let myLogger = RequestLogger()
 // Request filter at high priority to be executed first
 server.setRequestFilters([(myLogger, .high)])
 // Response filter at low priority to be executed last
-server.setResponseFilters([(myLogger, .low)])
-
-// Set the webroot directory so static files such as the logo, can be served
-server.documentRoot = "./webroot"
+// server.setResponseFilters([(myLogger, .low)])
 
 // Register your own routes and handlers
 // Routes V1
@@ -28,8 +28,8 @@ var api1Routes = Routes(baseUri: "/api/v1", routes: Router.getRoutes())
 // Add the routes to the server.
 server.addRoutes(api1Routes)
 
-// Set a listen port of 8080
-server.serverPort = 8080
+// Add filters
+server.setRequestFilters(Router.getFilters())
 
 // JSON Registration
 JSONDecoding.registerJSONDecodable(name: User.jsonRegisterName, creator: { return User() })

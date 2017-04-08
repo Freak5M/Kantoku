@@ -7,9 +7,27 @@
 //
 
 import PerfectHTTP
+import PerfectRequestLogger
 import Foundation
 
+struct AuthFilter : HTTPRequestFilter {
+    
+    func filter(request: HTTPRequest, response: HTTPResponse, callback: (HTTPRequestFilterResult) -> ()) {
+        print("filter")
+        callback(.continue(request, response))
+    }
+    
+}
+
+
 final class Router {
+    
+    static func getFilters() -> [(HTTPRequestFilter, HTTPFilterPriority)] {
+        return [
+            (RequestLogger(), HTTPFilterPriority.high),
+            (AuthFilter(), HTTPFilterPriority.medium)
+        ]
+    }
     
     static func getRoutes() -> [Route] {
         return [
